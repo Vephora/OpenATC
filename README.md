@@ -41,7 +41,7 @@ The design is intended to be safe, simple, and replicable with common hobby CNC 
 OpenATC/
 ├─ hardware/
 │  ├─ cad/          - Fusion 360 source files, STEP models, and mechanical design data
-│  ├─ stl/          - 3D-printable parts for the ATC system
+│  ├─ step/          - 3D-printable parts for the ATC system
 │  ├─ drawings/     - Optional 2D drawings, DXF files, and technical documentation
 │  └─ bom/          - Bill of Materials and sourcing information
 │     ├─ openatc_bom.csv
