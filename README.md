@@ -37,31 +37,37 @@ The design is intended to be safe, simple, and replicable with common hobby CNC 
 
 ## 📁 Repository Structure
 
+```text
 OpenATC/
 ├─ hardware/
-│ ├─ cad/ # Fusion 360 source files, STEP exports
-│ ├─ stl/ # 3D-printable components
-│ ├─ drawings/ # Optional technical drawings
-│ └─ bom/ # Bill of materials + sourcing info
-│ ├─ openatc_bom.csv
-│ ├─ alternates.md
-│ └─ sourcing-guide.md
+│  ├─ cad/          - Fusion 360 source files, STEP models, and mechanical design data
+│  ├─ stl/          - 3D-printable parts for the ATC system
+│  ├─ drawings/     - Optional 2D drawings, DXF files, and technical documentation
+│  └─ bom/          - Bill of Materials and sourcing information
+│     ├─ openatc_bom.csv
+│     ├─ alternates.md
+│     └─ sourcing-guide.md
+│
 ├─ cnc-config/
-│ ├─ linuxcnc/ # Example M6 remap, macros, HAL snippets
-│ └─ other/ # Reserved for future Mach/GRBL examples
+│  ├─ linuxcnc/     - Example LinuxCNC macros, HAL snippets, and M6 remap files
+│  └─ other/        - Reserved for future controller support (Mach, GRBL, etc.)
+│
 ├─ docs/
-│ ├─ assembly.md
-│ ├─ setup.md
-│ ├─ theory.md
-│ ├─ safety.md
-│ └─ faq.md
+│  ├─ assembly.md   - Step-by-step assembly instructions
+│  ├─ setup.md      - CNC configuration and integration guide
+│  ├─ theory.md     - Explanation of the inertia-based tightening mechanism
+│  ├─ safety.md     - Safety considerations and testing notes
+│  └─ faq.md        - Frequently asked questions
+│
 ├─ media/
-│ ├─ photos/
-│ ├─ renders/
-│ └─ animations/
+│  ├─ photos/       - Pictures of the prototype and community builds
+│  ├─ renders/      - CAD renders and visualisations
+│  └─ animations/   - Motion diagrams or demo animations
+│
 └─ examples/
-├─ gcode/
-└─ projects/
+   ├─ gcode/        - Sample G-code for testing tool changes
+   └─ projects/     - Demonstration projects using OpenATC
+```
 
 
 ---
