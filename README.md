@@ -91,7 +91,7 @@ These parts are intentionally generic so builders can source them locally.
 
 ## 🛠 Getting Started
 
-1. **Print the STL parts** from `hardware/stl/`  
+1. **Print the step parts** from `hardware/step/`  
 2. **Source the bought-in components** listed in the BOM  
 3. **Assemble the ATC** using `docs/assembly.md`  
 4. **Install and configure your system** using the examples in `cnc-config/linuxcnc/`  
