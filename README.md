@@ -93,9 +93,9 @@ These parts are intentionally generic so builders can source them locally.
 
 1. **Print the step parts** from `hardware/step/`  
 2. **Source the bought-in components** listed in the BOM  
-3. **Assemble the ATC** using `docs/assembly.md`  
-4. **Install and configure your system** using the examples in `cnc-config/linuxcnc/`  
-5. **Test tool changes** with the example G-code in `examples/gcode/`
+3. **Assemble the ATC** using `docs/assembly.md`  - TBC
+4. **Install and configure your system** using the examples in `cnc-config/linuxcnc/`  - TBC
+5. **Test tool changes** with the example G-code in `examples/gcode/` - TBC
 
 ---
 
